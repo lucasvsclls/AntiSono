@@ -28,7 +28,7 @@ struct ContentView: View {
                 Text("Repetir notificação?")
             }
             Button("Agendar Notificação"){
-                agendarNotificação(titulo: titulo, mensagem: mensagem, intervalo: Int(intervalo) ?? 0, repete: repete)
+                agendarNotificaçãoTempo(titulo: titulo, mensagem: mensagem, intervalo: Int(intervalo) ?? 0, repete: repete)
             }
             Button("Remover Notificações"){
                 removerNotificacoes()

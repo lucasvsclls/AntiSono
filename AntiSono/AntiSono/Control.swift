@@ -17,7 +17,7 @@ func pedirPermissão() -> Void {
     }
 }
 
-func agendarNotificação(titulo: String, mensagem: String, intervalo: Int, repete: Bool) -> Void {
+func agendarNotificaçãoTempo(titulo: String, mensagem: String, intervalo: Int, repete: Bool) -> Void {
     
     var tempo_intervalo: String
     
