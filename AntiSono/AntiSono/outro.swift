@@ -1,9 +1,11 @@
 //
-//  Control.swift
+//  outro.swift
 //  AntiSono
 //
-//  Created by Lucas Vasconcellos Côrtes on 10/8/25.
+//  Created by Lucas Vasconcellos Côrtes on 10/9/25.
 //
+//
+
 import Foundation
 import UserNotifications
 
@@ -49,4 +51,5 @@ func removerNotificacoes(){
     UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
     UNUserNotificationCenter.current().removeAllDeliveredNotifications()
 }
+
 

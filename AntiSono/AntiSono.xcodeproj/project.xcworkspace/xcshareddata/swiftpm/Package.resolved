@@ -1,0 +1,15 @@
+{
+  "originHash" : "30acaf09b729ccb74935ae530f33b6b1bf65e736beee7db21baf4841fefef664",
+  "pins" : [
+    {
+      "identity" : "package-notificacacao-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lucasvsclls/Package-Notificacacao-IOS",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d63626976d1b50bd07733109b4e4503e91c4c252"
+      }
+    }
+  ],
+  "version" : 3
+}
