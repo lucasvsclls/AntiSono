@@ -93,7 +93,8 @@ func adicionarNotificacao(titulo: String) {
     notificationInfo.alertBody = "\(titulo)"
     notificationInfo.shouldBadge = true
     notificationInfo.soundName = "default"
-
+    
+    
     subscription.notificationInfo = notificationInfo
 
     CKContainer.default().publicCloudDatabase.save(subscription) { savedSubscription, error in
